@@ -59,7 +59,7 @@ public class TarballCompress {
 
             System.out.println("Counter: " + counter.get());
 
-            CompressUtils.compressTarGZ("/tmp/senecomptest", "/Users/eddie/Desktop/senecomptest.tar");
+            CompressUtils.compressTarGZ("/tmp/senecomptest", "/tmp/senecomptest.tar");
         }
 
         sw.stop();
